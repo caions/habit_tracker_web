@@ -22921,8 +22921,7 @@ fK:function fK(a,b){this.a=a
 this.b=b
 this.c=null},
 ha:function ha(a){this.a=a},
-U2:function U2(a,b){this.a=a
-this.b=b},
+U2:function U2(){this.c=this.b=$},
 U3:function U3(){},
 U4:function U4(){},
 hc:function hc(a,b,c){this.c=a
@@ -75194,56 +75193,69 @@ A.ha.prototype={}
 A.U2.prototype={
 tj(){var s=0,r=A.a2(t.vq),q,p=this,o,n
 var $async$tj=A.a3(function(a,b){if(a===1)return A.a_(b,r)
-while(true)switch(s){case 0:s=3
-return A.a4(A.aro(p.a),$async$tj)
-case 3:n=b
-if(n.b===200){o=J.jf(B.b9.wu(0,A.ah8(A.agm(n.e).c.a.h(0,"charset")).eK(0,n.w),null),new A.U3(),t.k8)
-q=A.af(o,!0,A.n(o).i("aY.E"))
+while(true)switch(s){case 0:n=p.b
+n===$&&A.b()
+s=3
+return A.a4(A.aro(n),$async$tj)
+case 3:o=b
+if(o.b===200){n=J.jf(B.b9.wu(0,A.ah8(A.agm(o.e).c.a.h(0,"charset")).eK(0,o.w),null),new A.U3(),t.k8)
+q=A.af(n,!0,A.n(n).i("aY.E"))
 s=1
-break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+n.gm3(n)))
+break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+o.gm3(o)))
 case 1:return A.a0(q,r)}})
 return A.a1($async$tj,r)},
 wn(a){return this.aad(a)},
-aad(a){var s=0,r=A.a2(t.k8),q,p=this,o,n
+aad(a){var s=0,r=A.a2(t.k8),q,p=this,o,n,m,l
 var $async$wn=A.a3(function(b,c){if(b===1)return A.a_(c,r)
-while(true)switch(s){case 0:o=t.N
+while(true)switch(s){case 0:n=t.N
+m=B.b9.wI(A.aB(["name",a],n,n),null)
+l=p.b
+l===$&&A.b()
 s=3
-return A.a4(A.arM(p.a,B.b9.wI(A.aB(["name",a],o,o),null),A.aB(["Content-Type","application/json; charset=UTF-8"],o,o)),$async$wn)
-case 3:n=c
-if(n.b===200){q=A.an8(B.b9.wu(0,A.ah8(A.agm(n.e).c.a.h(0,"charset")).eK(0,n.w),null))
+return A.a4(A.arM(l,m,A.aB(["Content-Type","application/json; charset=UTF-8"],n,n)),$async$wn)
+case 3:o=c
+if(o.b===200){q=A.an8(B.b9.wu(0,A.ah8(A.agm(o.e).c.a.h(0,"charset")).eK(0,o.w),null))
 s=1
-break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+n.gm3(n)))
+break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+o.gm3(o)))
 case 1:return A.a0(q,r)}})
 return A.a1($async$wn,r)},
 tk(){var s=0,r=A.a2(t.Ox),q,p=this,o,n
 var $async$tk=A.a3(function(a,b){if(a===1)return A.a_(b,r)
-while(true)switch(s){case 0:s=3
-return A.a4(A.aro(p.b),$async$tk)
-case 3:n=b
-if(n.b===200){o=J.jf(B.b9.wu(0,A.ah8(A.agm(n.e).c.a.h(0,"charset")).eK(0,n.w),null),new A.U4(),t.XD)
-q=A.af(o,!0,A.n(o).i("aY.E"))
+while(true)switch(s){case 0:n=p.c
+n===$&&A.b()
+s=3
+return A.a4(A.aro(n),$async$tk)
+case 3:o=b
+if(o.b===200){n=J.jf(B.b9.wu(0,A.ah8(A.agm(o.e).c.a.h(0,"charset")).eK(0,o.w),null),new A.U4(),t.XD)
+q=A.af(n,!0,A.n(n).i("aY.E"))
 s=1
-break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+n.gm3(n)))
+break}else throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+o.gm3(o)))
 case 1:return A.a0(q,r)}})
 return A.a1($async$tk,r)},
 w8(a,b){return this.a9n(a,b)},
-a9n(a,b){var s=0,r=A.a2(t.H),q=this,p,o
+a9n(a,b){var s=0,r=A.a2(t.H),q=this,p,o,n,m
 var $async$w8=A.a3(function(c,d){if(c===1)return A.a_(d,r)
-while(true)switch(s){case 0:p=t.N
+while(true)switch(s){case 0:o=t.N
+n=B.b9.wI(A.aB(["habitId",a,"completedDate",b.afZ()],o,o),null)
+m=q.c
+m===$&&A.b()
 s=2
-return A.a4(A.arM(q.b,B.b9.wI(A.aB(["habitId",a,"completedDate",b.afZ()],p,p),null),A.aB(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$w8)
-case 2:o=d
-if(o.b!==200)throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+o.gm3(o)))
+return A.a4(A.arM(m,n,A.aB(["Content-Type","application/json; charset=UTF-8"],o,o)),$async$w8)
+case 2:p=d
+if(p.b!==200)throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+p.gm3(p)))
 return A.a0(null,r)}})
 return A.a1($async$w8,r)},
 wy(a){return this.aaC(a)},
-aaC(a){var s=0,r=A.a2(t.H),q=this,p,o
+aaC(a){var s=0,r=A.a2(t.H),q=this,p,o,n,m
 var $async$wy=A.a3(function(b,c){if(b===1)return A.a_(c,r)
-while(true)switch(s){case 0:p=t.N
+while(true)switch(s){case 0:o=t.N
+n=B.b9.wI(A.aB(["id",a],o,o),null)
+m=q.b
+m===$&&A.b()
 s=2
-return A.a4(A.as3(q.a,B.b9.wI(A.aB(["id",a],p,p),null),A.aB(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$wy)
-case 2:o=c
-if(o.b!==200)throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+o.gm3(o)))
+return A.a4(A.as3(m,n,A.aB(["Content-Type","application/json; charset=UTF-8"],o,o)),$async$wy)
+case 2:p=c
+if(p.b!==200)throw A.c(A.bU("Erro na requisi\xe7\xe3o: "+p.gm3(p)))
 return A.a0(null,r)}})
 return A.a1($async$wy,r)}}
 A.U3.prototype={
@@ -75426,7 +75438,10 @@ A.GB.prototype={
 M(a){var s=null
 return new A.q2(new A.u0(new A.ru(new A.a16(),s,s,s,A.aEp(),A.aDc(),t.rz),s,s,B.H3,s,t.Bh),"Habit Tracker",A.ajO(s,A.av2(B.af,B.H5),new A.qI(s,s,s,s,s,s,new A.aD(B.hS,t.Il),s,s,s,s,s),!0),!1,s)}}
 A.a16.prototype={
-$1(a){return new A.k1(A.a([],t.ZZ),A.a([],t.y1),new A.U2(A.hK("http://localhost:8000/habits"),A.hK("http://localhost:8000/habitsCompDate")),$.aF())},
+$1(a){var s=A.a([],t.ZZ),r=A.a([],t.y1),q=new A.U2()
+q.b=A.hK("https://habit-tracker-backend.vercel.app/habits")
+q.c=A.hK("https://habit-tracker-backend.vercel.app/habitsCompDate")
+return new A.k1(s,r,q,$.aF())},
 $S:441}
 A.k1.prototype={
 oY(){var s=0,r=A.a2(t.vq),q,p=2,o,n=this,m,l,k,j,i
